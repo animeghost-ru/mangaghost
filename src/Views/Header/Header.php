@@ -24,6 +24,7 @@ class Header extends Singleton
         <title>$title</title>      
         
         <link href='/public/CSS/bootstrap.min.css' type='text/css' rel='stylesheet'>
+        <link href='/public/CSS/core.css' type='text/css' rel='stylesheet'>
     </head>
     <body>";
     }

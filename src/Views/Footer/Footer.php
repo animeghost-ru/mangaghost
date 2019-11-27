@@ -18,7 +18,11 @@ class Footer extends Singleton
 
     public static function output()
     {
-        print "    
+        print "
+        <script src='/public/JS/jquery-3.4.1.min.js'></script>
+        <script src='/public/JS/popper.min.js'></script>
+        <script src='/public/JS/bootstrap.min.js'></script>    
+        <script src='/public/JS/core.js'></script>
     </body>
 </html>";
     }
